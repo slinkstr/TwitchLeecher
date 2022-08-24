@@ -74,7 +74,7 @@
                                     <TextBlock Grid.Row="1" Margin="0,3,0,0" Opacity=".75" FontSize="12" Text="{Binding RecordedDate, StringFormat='D'}" />
                                 </Grid>
 
-                                <Button Grid.Column="1" IsEnabled="{Binding Live, Converter={StaticResource InverseBoolConverter}}" Padding="8" Width="40" Height="{Binding ActualHeight, ElementName=txtGrid, Mode=OneWay}" Command="{Binding Path=DataContext.DownloadCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}" CommandParameter="{Binding Id}">
+                                <Button Grid.Column="1" IsEnabled="true" Padding="8" Width="40" Height="{Binding ActualHeight, ElementName=txtGrid, Mode=OneWay}" Command="{Binding Path=DataContext.DownloadCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}" CommandParameter="{Binding Id}">
                                     <fa:ImageAwesome Icon="Download" RenderTransformOrigin="0.5,0.5" />
                                 </Button>
                             </Grid>
