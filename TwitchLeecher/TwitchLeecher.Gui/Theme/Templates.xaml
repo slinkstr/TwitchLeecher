@@ -696,7 +696,7 @@
         <Style.Triggers>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource TlDateTimePicker.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -901,7 +901,7 @@
         <Style.Triggers>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource TlTimePicker.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -973,7 +973,7 @@
             </MultiTrigger>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource TextBox.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -1070,7 +1070,7 @@
         <Style.Triggers>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource WatermarkTextBox.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -1149,7 +1149,7 @@
         <Style.Triggers>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource TlIntegerUpDown.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
@@ -1787,7 +1787,7 @@
             </Trigger>
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource WatermarkTextBox.Error.Background}" />
-                <Setter Property="ToolTip" Value="{Binding (Validation.Errors).CurrentItem.ErrorContent, RelativeSource={RelativeSource Self}}" />
+                <Setter Property="ToolTip" Value="{Binding (Validation.Errors)/ErrorContent, RelativeSource={RelativeSource Self}}" />
             </Trigger>
         </Style.Triggers>
     </Style>
