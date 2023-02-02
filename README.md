@@ -1,3 +1,9 @@
+## Note
+
+I recommend using [TwitchDownloader](https://github.com/lay295/TwitchDownloader) instead, as you can no longer sign in to TwitchLeecher.
+
+If you're already signed in the [patched .exe available in releases](https://github.com/slinkstr/TwitchLeecher/releases/latest) fixes the greyed out download button on live vods.
+
 # Twitch Leecher
 
 If you are looking for an extremely fast and easy to use Twitch VOD downloader, this is your tool!
